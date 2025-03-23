@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikes - Rider's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Rider's Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bikes.html">Bikes</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bike Filter Buttons -->
+    <section class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Bikes</button>
+        <button class="filter-btn" data-filter="adventure">Adventure Bikes</button>
+        <button class="filter-btn" data-filter="cruiser">Cruiser Bikes</button>
+        <button class="filter-btn" data-filter="sports">Sports Bikes</button>
+    </section>
+
+    <!-- Bike Gallery -->
+    <section class="bike-gallery">
+        <!-- Adventure Bike -->
+        <div class="bike-card animate__animated animate__fadeIn" data-category="adventure">
+            <img src="https://motoringjunction.com/wp-content/uploads/2019/01/2018-triumph-tiger-800-xca-adventure-motorcycle.jpg" alt="Adventure Bike">
+            <h3>Adventure Bike</h3>
+            <p><strong>Price:</strong> $20,000</p>
+            <a href="adventure-bike.html" class="btn">View Details</a>
+        </div>
+
+        <!-- Cruiser Bike -->
+        <div class="bike-card animate__animated animate__fadeIn" data-category="cruiser">
+            <img src="https://images.firstpost.com/wp-content/uploads/2021/09/2022-royal-enfield-classic-350-review-2.jpg" alt="Cruiser Bike">
+            <h3>Cruiser Bike</h3>
+            <p><strong>Price:</strong> $18,000</p>
+            <a href="cruiser-bike.html" class="btn">View Details</a>
+        </div>
+
+        <!-- Sports Bike -->
+        <div class="bike-card animate__animated animate__fadeIn" data-category="sports">
+            <img src="https://wallpaperaccess.com/full/4828704.jpg" alt="Sports Bike">
+            <h3>Sports Bike</h3>
+            <p><strong>Price:</strong> $15,000</p>
+            <a href="sports-bike.html" class="btn">View Details</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Rider's Hub. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="bikes.js"></script>
+</body>
+</html>
